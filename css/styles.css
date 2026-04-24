@@ -49,8 +49,9 @@ body {
 
 .texto-header{
   width: 70rem;
+  height: auto;
   margin: 0 auto;
-
+  padding-top: 10rem;
 }
 
 .title{
