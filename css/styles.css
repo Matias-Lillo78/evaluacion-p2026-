@@ -7,6 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .inicio{
   display: flex;
   justify-content: center;
@@ -142,10 +143,16 @@ body {
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2rem;
   background-color: white;
   color: #003366;
   padding: 7rem;
   border-radius: 4rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  
 }
 
 
@@ -153,7 +160,50 @@ body {
   color: #FFAA00;
 }
 
+.cobertura{
+  display: flex;
+  background-color: #D9D9D9;
+  padding: 10rem 8rem;
+  gap: 6rem;
+  color: #003366;
+}
 
+.cobertura-izquierda{
+  flex: 1;
+}
+
+.cobertura ul{
+  list-style: none;
+  margin-top: 5rem;
+}
+
+.titulo-cobertura{
+  color: #FFAA00;
+}
+
+.cobertura li{
+  margin-bottom: 1rem;
+}
+
+.cobertura-derecha{
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1.2rem;
+}
+
+.cobertura-derecha span{
+  background-color: #003366;
+  color: white;
+  padding: 1rem 1.4rem;
+  margin: .5rem;
+  border-radius: 2.5rem;
+  font-size: 1.4rem;
+}
+
+.cobertura li::before {
+  content: "✔ ";
+  color: #003366;
+}
 
 
 
