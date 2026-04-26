@@ -78,7 +78,7 @@ body {
   padding: 1.5rem;
 }
 
-.servicios{
+.servicios-header{
   border: .1rem solid white;
   padding: 1rem 1.8rem;
   border-radius: 4rem;
@@ -133,31 +133,77 @@ body {
 
 .cards{
   display: flex;
-  margin-top: 5rem;
-  align-items: center;
-  gap: 5rem;
-  padding: 3rem;
-  align-items: stretch;
-  width: 90rem;
-  height: 30rem;
+  justify-content: center;
+  align-items: stretch;   
+  gap: 3.0rem;
 }
 
 .card{
+  background-color: #ffffff;
+  color: #333333;
+  padding: 3.0rem;
+  border-radius: 1.0rem;
+  flex: 1;                
+  text-align: left;       
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 2rem;
-  background-color: white;
-  color: #003366;
-  padding: 7rem;
-  border-radius: 4rem;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-  
 }
 
 
 .cards span{
   color: #FFAA00;
+}
+
+.servicios{
+  max-width: 110rem; 
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: #003366;
+}
+
+.titulo-servicios{
+  color: #FFAA00;
+}
+
+.cards-servicios {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;   
+  gap: 2.5rem;           
+}
+
+.card-servicios {
+  flex: 1;              
+  background-color: #ffffff;
+  border: 0.1rem solid #D9D9D9; 
+  padding: 3.0rem;
+  border-radius: 1.0rem;
+  text-align: left;      
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item {
+  background-color: #A3D9A5;
+  color: #003366;
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  border-radius: 0.8rem;
+  margin-bottom: 2.0rem;
+}
+
+.servicios-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;   
 }
 
 .cobertura{
@@ -255,21 +301,21 @@ button{
 }
 
 .formulario h3 {
-    font-size: 2.2rem;     
-    color: #003366;
-    margin-bottom: 1rem;
+  font-size: 2.2rem;     
+  color: #003366;
+  margin-bottom: 1rem;
 }
 
 .formulario label {
-    font-size: 1.4rem;     
-    font-weight: bold;
-    margin-bottom: 0.5rem; 
-    color: #003366;
+  font-size: 1.4rem;     
+  font-weight: bold;
+  margin-bottom: .5rem; 
+  color: #003366;
 }
 
 .formulario div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 footer{
@@ -285,15 +331,15 @@ footer{
 .footer-izquierdo, 
 .footer-central, 
 .footer-derecha {
-    flex: 1;                   
-    min-width: 25.0rem;        
-    margin-bottom: 3.0rem;
+  flex: 1;                   
+  min-width: 25.0rem;        
+  margin-bottom: 3rem;
 }
 
 .footer-izquierdo h2 {
-    color: #FFAA00;     
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+  color: #FFAA00;     
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer-central h3, 
@@ -312,10 +358,11 @@ footer{
 
 .footer-abajo{
   flex-basis: 100%;        
-    text-align: center;
-    margin-top: 4.0rem;
-    padding-top: 2.0rem;
-    border-top: .1rem solid rgba(255, 255, 255, 0.1); 
-    font-size: 1.4rem;
-    color: #D9D9D9;
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: .1rem solid rgba(255, 255, 255, .1); 
+  font-size: 1.4rem;
+  color: #D9D9D9;
 }
+
