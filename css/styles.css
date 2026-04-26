@@ -77,7 +77,43 @@ body {
   padding: 1.5rem;
 }
 
+.servicios{
+  border: .1rem solid white;
+  padding: 1rem 1.8rem;
+  border-radius: 4rem;
+}
+
 .texto-header a{
   text-decoration: none;
   color: white
 }
+
+.nosotros{
+  display: flex;
+  justify-content: center;
+}
+
+.texto-nosotros{
+  width: 60rem;
+  height: 20rem;
+  margin: 1rem 20rem;
+  padding-top: 5rem;
+  color: #003366;
+}
+
+
+.titulo-nosotros{
+  color: #FFAA00;
+}
+
+.nosotros img{
+  width: 40rem;
+  height: 20rem;
+  padding: 10rem 10rem 10rem 10rem;
+  border-radius: 15rem;
+}
+
+
+
+
+
